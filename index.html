@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREENDEN</title>
+    <!-- Tailwind CSS CDN LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Responsive Navbar -->
+    <nav class="bg-green-300 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">GREENDEN</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="products.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Header Section -->
+    <section class="bg-green-300 p-4 md:10 flex justify-center">
+        <div>
+            <p class="mb-4">We offer you a wide range of Artificial and Natural flowers</p>
+            <h2 class="font-bold text-3xl md:text-5xl mb-5">Plants for your Interior</h2>
+            <div>
+                <button class="bg-black rounded p-2 text-white">Shop Now</button>
+                <button class="border border-black rounded p-2">Watch Video</button>
+            </div>
+            <p class="mt-5">160+ Plants Species | 100+ Happy Customers</p>
+        </div>
+        <div class="hidden md:block p-4">
+            <img src="./images/Header image.jpg" alt="Header Image " class="w-80">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="text-center">
+        <h1 class="text-3xl font-bold mt-5">About Us</h1>
+        <p>We are a team of passionate plant enthusiasts dedicated to bringing the beauty of nature into your home.</p>
+
+        <div class="md:flex">
+            <div class="border border-black p-2 m-8">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-20 h-20 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
+                </svg>
+
+                <h2 class="text-red-800 text-xl font-medium">Large Assortment</h2>
+                <p>Explore our large assortment of stylish and durable pots, available in a variety of sizes, shapes,
+                    colors, and designs. Whether you are decorating your home, balcony, garden, or office, find the
+                    perfect pot to complement every plant and space.</p>
+            </div>
+
+            <div class="border border-black p-2 m-8">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-20 h-20 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg>
+
+                <h2 class="text-red-800 text-xl font-medium">Free and Fast Shipping</h2>
+                <p>Enjoy hassle-free delivery with fast shipping at no extra cost.Your pots are carefully packed and
+                    shipped quickly, with free delivery available.</p>
+            </div>
+
+            <div class="border border-black p-2 m-8">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-20 h-20 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z" />
+                </svg>
+
+                <h2 class="text-red-800 text-xl font-medium">24/7 Customer Support</h2>
+                <p>We are here whenever you need us. Our dedicated customer support team is available 24/7 to answer
+                    your
+                    questions, assist with your orders, and help you with any concerns.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Best Seller -->
+    <section class="p-4 text-center">
+        <h1 class="font-bold mt-5 text-3xl ">Best Seller</h1>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-8 p-4 ">
+            <div>
+                <img src="./images/Lilac pot.JPG" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                    alt="Lilac Pot" class="w-80">
+                <h1>Lilac Plant</h1>
+                <p>$50</p>
+            </div>
+            <div>
+                <img src="./images/Money plant.JPG" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                    alt="Money Plant" class="w-80">
+                <h1>Money Plant</h1>
+                <p>$70</p>
+            </div>
+            <div>
+                <img src="./images/Rose pot.JPG" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                    alt="Rose Pot" class="w-80">
+                <h1>Rose Plant</h1>
+                <p>$60</p>
+            </div>
+            <div>
+                <img src="./images/Lilly pot.JPG" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                    alt="Lilly Pot" class="w-80">
+                <h1>Lilly Plant</h1>
+                <p>$40</p>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <h1 class="text-3xl font-bold mt-5 text-center">Customer Reviews</h1>
+        <div class="flex flex-col gap-5 justify-center text-black p-5">
+
+            <div class="bg-green-300 container">
+                <h2 class="text-red-800 text-xl font-bold">John Doe</h2>
+                <p>"I love the variety of plants available at GREENDEN. The quality is top-notch, and the delivery was
+                    prompt. Highly recommend!"</p>
+            </div>
+
+            <div class="bg-green-300 container">
+                <h2 class="text-red-800 text-xl font-bold">Jane Smith</h2>
+                <p>"The customer service at GREENDEN is exceptional. They helped me choose the perfect plant for my
+                    living room, and it looks amazing!"</p>
+            </div>
+
+            <div class="bg-green-300 container">
+                <h2 class="text-red-800 text-xl font-bold">Emily Johnson</h2>
+                <p>"I was impressed with the fast shipping and careful packaging. My plants arrived in perfect
+                    condition,
+                    and they are thriving!"</p>
+            </div>
+    </section>
+    <!-- News Letter -->
+    <section class="text-center">
+        <h1 class="text-3xl font-bold mt-5">Join our Newsletter</h1>
+        <p>Signup for our e-mail newspaper to get exclusive offers and updates!</p>
+        <input type="text" class="p-2 rounded border border-black p-2 m-3">
+        <br>
+        <button type="submit" class="bg-black text-white p-3 m-1 underline rounded ml-2">Subscribe</button>
+
+
+
+
+        <!-- footer -->
+        <section class="bg-green-900 text-white p-10 mt-8">
+            <h1 class="text-4xl font-bold">GREENDEN</h1>
+            <p>we are a company that provides high-quality plants and pots for your home or office.</p>
+            <p>&copy; 2023 GREENDEN. All rights reserved.</p>
+            <p>@ABIRAMI ARUMUGAM</p>
+        </section>
+</body>
+
+</html>
